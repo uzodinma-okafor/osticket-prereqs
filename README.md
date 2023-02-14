@@ -34,9 +34,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>
 <img src="https://i.imgur.com/uPkkeVX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/KIuHm30.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/GMiUjuc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this part of the project (as seen in pics above), I set up an Azure subscription prior to getting started. I'm using Azure to create a resource group named "RG_OST_3". In this resource group, I created an Azure virtual machine named VM-OST-3, and its corresponding virtual network and subnet to use as an environment to install osTicket and additional prerequiste softwares. In VM-OST-3, I complete the steps for installation for osTicket.
 </p>
 <br />
 
