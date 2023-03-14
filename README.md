@@ -39,10 +39,26 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/EA7ybWW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/X2JizIf.png" height="50%" width="33%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/IFKF7mk.png" height="50%" width="33%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/vAheUwX.png" height="50%" width="33%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-As seen above, VM-OST-3 is all set up. I'm connnecting and logging into it via Remote Desktop Connection to continue the steps of installation. 
+As seen above(left pic), VM-OST-3 is all set up. I copied VM-OST-3's public IP address (172.174.137.146). I'm connnecting and logging into it via Remote Desktop Connection to continue the steps of installation. To follow along with this part of the  tutorial, connect to your own virtual machine (VM) by following the steps in this previous tutorial, <a href="https://github.com/uzodinma-okafor/vm-connection">Connecting to & Utilization of Virtual Machines via Microsoft Remote Desktop Connection</a>. After logging into VM-OST-3 (middle pic), I went on Microsoft Edge to log into Google Drive to open a folder with the necessary prerequisite installation files(right pic).
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
