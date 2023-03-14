@@ -30,11 +30,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img src="https://i.imgur.com/uPkkeVX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <img src="https://i.imgur.com/8X8C6by.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="https://i.imgur.com/GMiUjuc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <img src="https://i.imgur.com/wklYWjH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/KtjRszO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- In this part of the project (as seen in pics above), I set up an Azure subscription prior to getting started. I used Azure to create a resource group named "RG_OST_3". In this resource group, I created an Azure virtual machine named VM-OST-3, and its corresponding virtual network & subnet to use as an environment to install osTicket and additional prerequiste softwares. To follow along in this tutorial, first creat your own virtual machine (VM) in Azure with this previous tutorial, <a href="https://github.com/uzodinma-okafor/vm-creation">Creation of a Virtual Machine via Microsoft Azure</a>. Make sure to use 4 vCPUs with a low monthly cost for your VM. In VM-OST-3, I complete the steps for installation for osTicket.
+ In this part of the project (top pic), I set up an Azure subscription prior to getting started. I used Azure to create a resource group named "RG_OST_3". In this resource group, I created an Azure virtual machine named VM-OST-3, and its corresponding virtual network & subnet to use as an environment to install osTicket and additional prerequiste softwares. To follow along in this tutorial, first create your own virtual machine (VM) in Azure with this previous tutorial, <a href="https://github.com/uzodinma-okafor/vm-creation">Creation of a Virtual Machine via Microsoft Azure</a>. Make sure to create your login credentials (username and password), to use Windows 10 Pro as the OS, & to use 4 vCPUs with a low monthly cost for your VM (pics# 2-4 down). I used the username "labuserdin" and "Virtual123mach" as my password. In VM-OST-3, I complete the steps for installation for osTicket.
 </p>
 <br />
 
