@@ -5,14 +5,9 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines/Computers)
 - Remote Desktop
 - Internet Information Services (IIS)
 
@@ -34,11 +29,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>
 <img src="https://i.imgur.com/uPkkeVX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="https://i.imgur.com/KIuHm30.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/8X8C6by.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <img src="https://i.imgur.com/GMiUjuc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/wklYWjH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In this part of the project (as seen in pics above), I set up an Azure subscription prior to getting started. I'm using Azure to create a resource group named "RG_OST_3". In this resource group, I created an Azure virtual machine named VM-OST-3, and its corresponding virtual network and subnet to use as an environment to install osTicket and additional prerequiste softwares. In VM-OST-3, I complete the steps for installation for osTicket.
+ In this part of the project (as seen in pics above), I set up an Azure subscription prior to getting started. I used Azure to create a resource group named "RG_OST_3". In this resource group, I created an Azure virtual machine named VM-OST-3, and its corresponding virtual network & subnet to use as an environment to install osTicket and additional prerequiste softwares. To follow along in this tutorial, first creat your own virtual machine (VM) in Azure with this previous tutorial, <a href="https://github.com/uzodinma-okafor/vm-creation">Creation of a Virtual Machine via Microsoft Azure</a>. Make sure to use 4 vCPUs with a low monthly cost for your VM. In VM-OST-3, I complete the steps for installation for osTicket.
 </p>
 <br />
 
