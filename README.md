@@ -249,73 +249,14 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
 
 <p>
 <h2>Step 16: Clean up: delete "setup" folder </h2>
-<img src="https://i.imgur.com/XW7tc7v.png" height="50%" width="33%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/2ZVuPlA.png" height="50%" width="33%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/2ZVuPlA.png" height="50%" width="33%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/XW7tc7v.png" height="50%" width="33%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/63GylNv.png" height="50%" width="33%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-- Rename from "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" to "C:\inetpub\wwwroot\osTicket\include\ost-config.php"
- 
-- Right click the "ost-config.php" file and select "Properties"
- - Click Security Tab >>
- - Double-click PHP Manager >> Click “Enable or disable an extension”
- - Enable these extensions: php_imap.dll, php_intl.dll, and php_opcache.dll
- - Refresh the OsTicket site and notice the changes due to the enabled extensions
+- Delete this folder--> C:\inetpub\wwwroot\osTicket\setup
+  
+- Next, right click on C:\inetpub\wwwroot\osTicket\include\ost-config.php >> select Properties >> Click on Security tab >> Click "Advanced"
+- Double Click on "Everyone" >> Uncheck all boxes EXCEPT "Read" and "Read and Execute" >> Click OK >> On previous window, Click "Apply", then click "OK"
+- Click OK a final time
   
 </p>
 <br /><hr>
-
-<p>
-<h2>Step 13: Rename & Assign permissions for ost-config.php </h2>
-<img src="https://i.imgur.com/MF0Jaf4.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/2ZVuPlA.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
-</p>
-<p>
-- Rename from "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" to "C:\inetpub\wwwroot\osTicket\include\ost-config.php"
- 
-- Right click the "ost-config.php" file and select "Properties"
- - Click Security Tab >>
- - Double-click PHP Manager >> Click “Enable or disable an extension”
- - Enable these extensions: php_imap.dll, php_intl.dll, and php_opcache.dll
- - Refresh the OsTicket site and notice the changes due to the enabled extensions
-  
-</p>
-<br /><hr>
-
-<p>
-<h2>Step 13: Rename & Assign permissions for ost-config.php </h2>
-<img src="https://i.imgur.com/MF0Jaf4.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/2ZVuPlA.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
-</p>
-<p>
-- Rename from "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" to "C:\inetpub\wwwroot\osTicket\include\ost-config.php"
- 
-- Right click the "ost-config.php" file and select "Properties"
- - Click Security Tab >>
- - Double-click PHP Manager >> Click “Enable or disable an extension”
- - Enable these extensions: php_imap.dll, php_intl.dll, and php_opcache.dll
- - Refresh the OsTicket site and notice the changes due to the enabled extensions
-  
-</p>
-<br /><hr>
-
-<p>
-<h2>Step 13: Rename & Assign permissions for ost-config.php </h2>
-<img src="https://i.imgur.com/MF0Jaf4.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/2ZVuPlA.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
-</p>
-<p>
-- Rename from "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" to "C:\inetpub\wwwroot\osTicket\include\ost-config.php"
- 
-- Right click the "ost-config.php" file and select "Properties"
- - Click Security Tab >>
- - Double-click PHP Manager >> Click “Enable or disable an extension”
- - Enable these extensions: php_imap.dll, php_intl.dll, and php_opcache.dll
- - Refresh the OsTicket site and notice the changes due to the enabled extensions
-  
-</p>
-<br /><hr>
-
-
-
-
-
-
-
-
-
