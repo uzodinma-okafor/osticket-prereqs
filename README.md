@@ -42,13 +42,11 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
 </p>
 <p>
 As seen above(left pic), VM-OST-3 is all set up. I copied VM-OST-3's public IP address (172.174.137.146). I'm connnecting and logging into it via Remote Desktop Connection to continue the steps of installation. To follow along with this part of the  tutorial, connect to your own virtual machine (VM) by following the steps in this previous tutorial, <a href="https://github.com/uzodinma-okafor/vm-connection">Connecting to & Utilization of Virtual Machines via Microsoft Remote Desktop Connection</a>. After logging into VM-OST-3 (middle pic), I went on Microsoft Edge to log into Google Drive to open a folder with the necessary prerequisite installation files(right pic).
-</p><hr>
-<br />
-
-
+</p>
+<br /><hr>
 <p>
 <h2>Enable IIS in Windows with CGI</h2>
-<img src="https://i.imgur.com/S8lrjzX.png" height="50%" width="50%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/kzRHI9k.png" height="50%" width="50%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/sw6QGNa.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/S8lrjzX.png" height="50%" width="33%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/kzRHI9k.png" height="50%" width="33%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/sw6QGNa.png" height="50%" width="33%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <h3>Step 1: Enable IIS in Windows with CGI</h3>
@@ -57,10 +55,9 @@ As seen above(left pic), VM-OST-3 is all set up. I copied VM-OST-3's public IP a
   - Choose "Programs" >> Click "Turn Windows Features on or Off"
   - Scroll down to activate "Internet Information Services (IIS)" by checking its box on the left
   - Expand IIS to reach "World Wide Web Services" >> Expand that to reach "Application Development Features" >> Expand that, scroll down and activate "CGI" by clicking the box on its left
-  - CLick OK
-
-</p><hr>
-<br />
+  - Click OK
+</p>
+<br /><hr>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
