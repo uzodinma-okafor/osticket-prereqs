@@ -190,19 +190,39 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
 
 <p>
 <h2>Step 12: Rename & Assign permissions for ost-config.php </h2>
-<img src="https://i.imgur.com/MF0Jaf4.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/2ZVuPlA.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/08urZO5.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/An9jSTD.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
 - Rename from "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" to "C:\inetpub\wwwroot\osTicket\include\ost-config.php"
  
-- Disable inheritance -> Remove All
-New Permissions -> Everyone -> All
+- Next, right click "ost-config.php" >> select Properties >> Click on Security tab >> Click "Advanced" 
+- Click "Disable inheritance" >> Click "Remove All..." >> Click "Add" 
+- On new window, click "select a principal" >> In Permissions window, type "Everyone" and click OK
+- In next permission window, Select checkbox for "Full Control" >> Click OK >> back in previous window, click Apply and then click OK
+- Click OK a final time to close ost-config.php Properties
 
 </p>
 <br /><hr>
 
 <p>
-<h2>Step 12: Rename & Assign permissions for ost-config.php </h2>
+<h2>Step 13: OsTicket Setup Continued </h2>
+<img src="https://i.imgur.com/tNhAeHI.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/yXKEhrl.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+- Refresh OsTicket Installer page >> There are more features now. >> Click "Continue"
+ 
+- New page require information to be filled out. 
+- Focusing on the "system Settings" and "Admin User" sections, fill out those details. Feel free to use example username and passwords in the pic above this step. Just use a non-personal testing email address. (
+ - Click Security Tab >>
+ - Double-click PHP Manager >> Click “Enable or disable an extension”
+ - Enable these extensions: php_imap.dll, php_intl.dll, and php_opcache.dll
+ - Refresh the OsTicket site and notice the changes due to the enabled extensions
+  
+</p>
+<br /><hr>
+
+<p>
+<h2>Step 13: Rename & Assign permissions for ost-config.php </h2>
 <img src="https://i.imgur.com/MF0Jaf4.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/2ZVuPlA.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
@@ -216,6 +236,10 @@ New Permissions -> Everyone -> All
   
 </p>
 <br /><hr>
+
+
+
+
 
 
 
