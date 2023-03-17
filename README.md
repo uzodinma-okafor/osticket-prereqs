@@ -30,12 +30,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img src="https://i.imgur.com/uPkkeVX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <img src="https://i.imgur.com/8X8C6by.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="https://i.imgur.com/wklYWjH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <img src="https://i.imgur.com/KtjRszO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- In this part of the project (top pic), I set up an Azure subscription prior to getting started. I used Azure to create a resource group named "RG_OST_3". In this resource group, I created an Azure virtual machine named VM-OST-3, and its corresponding virtual network & subnet to use as an environment to install osTicket and additional prerequiste softwares. To follow along in this tutorial, first create your own virtual machine (VM) in Azure with this previous tutorial, <a href="https://github.com/uzodinma-okafor/vm-creation">Creation of a Virtual Machine via Microsoft Azure</a>. Make sure to create your login credentials (username and password), to use Windows 10 Pro as the OS, & to use 4 vCPUs with a low monthly cost for your VM (pics# 2-4 down). I used the username "labuserdin" and "Virtual123mach" as my password. In VM-OST-3, I complete the steps for installation for osTicket.
-</p>
+To follow along in this tutorial, first create your own virtual machine (VM) in Azure with this previous tutorial, <a href="https://github.com/uzodinma-okafor/vm-creation">Creation of a Virtual Machine via Microsoft Azure</a>. Make sure to create your login credentials (username and password), to use Windows 10 Pro as the OS, & to use 4 vCPUs with a low monthly cost for your VM (pics# 2-4 down). The resource group for this tutorial is RG_OST_3. The VM used in this tutorial is VM-OST-3. For the VM's login credentials, I used the username "labuserdin" and "Virtual123mach" as my password. In VM-OST-3, I complete the steps for installation for osTicket.
+</p><hr>
 <br />
 
 <p>
@@ -43,7 +42,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 As seen above(left pic), VM-OST-3 is all set up. I copied VM-OST-3's public IP address (172.174.137.146). I'm connnecting and logging into it via Remote Desktop Connection to continue the steps of installation. To follow along with this part of the  tutorial, connect to your own virtual machine (VM) by following the steps in this previous tutorial, <a href="https://github.com/uzodinma-okafor/vm-connection">Connecting to & Utilization of Virtual Machines via Microsoft Remote Desktop Connection</a>. After logging into VM-OST-3 (middle pic), I went on Microsoft Edge to log into Google Drive to open a folder with the necessary prerequisite installation files(right pic).
-</p>
+</p><hr>
 <br />
 
 <p>
