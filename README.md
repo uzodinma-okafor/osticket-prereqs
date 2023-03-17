@@ -77,6 +77,10 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
 <img src="https://i.imgur.com/ap7nxgJ.png" height="50%" width="50%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/bfARSTG.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- After downloading the zip file, move its contents into your new C:\PHP folder
+
+  - Right click inside the zip file, choose "Extract All"
+  - Click "Browse" and choose C:\PHP as your destination folder
+  - Click "Extract" and then verify the contents moved are in the C:\PHP folder
 </p>
-<br />
+<br /><hr>
