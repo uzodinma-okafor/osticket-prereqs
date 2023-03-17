@@ -145,7 +145,7 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
 
 
 <p>
-<h2>Step 8: Enable PHP in IIS </h2>
+<h2>Step 9: Enable PHP in IIS </h2>
 <img src="https://i.imgur.com/TpTuKGJ.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/mjpomq4.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/2dQ5Y8B.png" height="50%" width="33%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
