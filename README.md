@@ -127,7 +127,7 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
 
 <p>
 <h2>Step 8: Intstall MySQL Server 5.5.62 <h2>
-<img src="https://i.imgur.com/HlS0Bm0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xiY7per.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 - Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
