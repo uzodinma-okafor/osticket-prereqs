@@ -193,10 +193,10 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
 <img src="https://i.imgur.com/M58yw2o.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/QFUOmG8.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
-- On left sidebar panel of IIS, Go to sites -> Default -> osTicket
+- Rename from "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" to "C:\inetpub\wwwroot\osTicket\include\ost-config.php"
  
- - On the right, click “Browse *:80” >> Note: on the webpage, there are some extensions not enabled
- - Go back to IIS>> on the left sidebar move to sites -> Default -> osTicket
+- Right click the "ost-config.php" file and select "Properties"
+ - Click Security Tab >>
  - Double-click PHP Manager >> Click “Enable or disable an extension”
  - Enable these extensions: php_imap.dll, php_intl.dll, and php_opcache.dll
  - Refresh the OsTicket site and notice the changes due to the enabled extensions
