@@ -174,7 +174,7 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
 
 <p>
 <h2>Step 11: Enable PHP extensions in PHP Manager </h2>
-<img src="https://i.imgur.com/M58yw2o.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/QFUOmG8.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/M58yw2o.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/2ZVuPlA.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
 - On left sidebar panel of IIS, Go to sites -> Default -> osTicket
