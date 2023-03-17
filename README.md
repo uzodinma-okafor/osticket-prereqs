@@ -126,14 +126,17 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
 <br /><hr>
 
 <p>
-<h2>Step 7: Intstall Microsoft Visual C++ </h2>
+<h2>Step 8: Intstall MySQL Server 5.5.62 <h2>
 <img src="https://i.imgur.com/HlS0Bm0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-- Download VC_redist.x86.exe to install Microsoft Visual C++
-
+- Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
   - After downloading, click "Open File" to start installation of the file
-  - Check the "I Agree" box and click "Install" 
-  - After installation completes, click "Close"
+  - Click Next >> Check the "I Agree" box and click "Next" 
+  - Choose "Typical" Setup type, then click "Next" 
+  - CLick "Install", then click "Finish"
+  - Choose "Standard Configuration", then click "Next" >> Leave "Install As Windows Service" choice AS IS and click "Next"
+  - Make new password like "Password1" for root MySQL Server account, then click "Next"
+  
 </p>
 <br /><hr>
