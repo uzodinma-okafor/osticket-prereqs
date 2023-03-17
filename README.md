@@ -184,14 +184,27 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
  - Double-click PHP Manager >> Click “Enable or disable an extension”
  - Enable these extensions: php_imap.dll, php_intl.dll, and php_opcache.dll
  - Refresh the OsTicket site and notice the changes due to the enabled extensions
-
-
-
-  - Open the zip folder >> Extract and copy “upload” folder to c:\inetpub\wwwroot
-  - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
-
   
 </p>
 <br /><hr>
+
+<p>
+<h2>Step 12: Rename & Assign permissions for ost-config.php </h2>
+<img src="https://i.imgur.com/M58yw2o.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/QFUOmG8.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+- On left sidebar panel of IIS, Go to sites -> Default -> osTicket
+ 
+ - On the right, click “Browse *:80” >> Note: on the webpage, there are some extensions not enabled
+ - Go back to IIS>> on the left sidebar move to sites -> Default -> osTicket
+ - Double-click PHP Manager >> Click “Enable or disable an extension”
+ - Enable these extensions: php_imap.dll, php_intl.dll, and php_opcache.dll
+ - Refresh the OsTicket site and notice the changes due to the enabled extensions
+  
+</p>
+<br /><hr>
+
+
+
 
 
