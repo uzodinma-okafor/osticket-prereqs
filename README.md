@@ -73,7 +73,34 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
 <br /><hr>
 
 <p>
-<h2>Step : Install PHP7.3.8</h2>
+<h2>Step 4: Intstall PHP Manager </h2>
+<img src="https://i.imgur.com/flUt8iT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/mt6FA0C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+- Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+
+  - Click & download PHPManagerForIIS_V1.5.0.msi (If you receive an message saying, "this file type might be dangerous", click to "download anyway"; Be sure to do this for ALL file downloads if necessary.)
+  - After downloading, click "Open File" to start installation of the file
+  - Click "Next", then choose "I Agree" and click "Next" again
+  - After installation completes, click "Close"
+</p>
+<br /><hr>
+
+<p>
+<h2>Step 5: Intstall Rewrite Module </h2>
+<img src="https://i.imgur.com/M4dgnEX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+- Download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+
+  - After downloading, click "Open File" to start installation of the file
+  - Check the "I Agree" box and click "Next" 
+  - After installation completes, click "Finish"
+</p>
+<br /><hr>
+
+<p>
+ <h2>Step 6: Install PHP 7.3.8</h2>
 <img src="https://i.imgur.com/ap7nxgJ.png" height="50%" width="50%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/bfARSTG.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -82,5 +109,18 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
   - Right click inside the zip file, choose "Extract All"
   - Click "Browse" and choose C:\PHP as your destination folder
   - Click "Extract" and then verify the contents moved are in the C:\PHP folder
+</p>
+<br /><hr>
+
+<p>
+<h2>Step 7: Intstall Rewrite Module </h2>
+<img src="https://i.imgur.com/M4dgnEX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+- Download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+
+  - After downloading, click "Open File" to start installation of the file
+  - Check the "I Agree" box and click "Next" 
+  - After installation completes, click "Finish"
 </p>
 <br /><hr>
