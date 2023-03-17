@@ -190,7 +190,22 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
 
 <p>
 <h2>Step 12: Rename & Assign permissions for ost-config.php </h2>
-<img src="https://i.imgur.com/M58yw2o.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/QFUOmG8.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/MF0Jaf4.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/2ZVuPlA.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+- Rename from "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" to "C:\inetpub\wwwroot\osTicket\include\ost-config.php"
+ 
+- Go back to IIS home page
+ - On left side bar click: sites -> Default -> osTicket
+ - Double-click PHP Manager >> Click “Enable or disable an extension”
+ - Enable these extensions: php_imap.dll, php_intl.dll, and php_opcache.dll
+ - Refresh the OsTicket site and notice the changes due to the enabled extensions
+</p>
+<br /><hr>
+
+<p>
+<h2>Step 12: Rename & Assign permissions for ost-config.php </h2>
+<img src="https://i.imgur.com/MF0Jaf4.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/2ZVuPlA.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
 - Rename from "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" to "C:\inetpub\wwwroot\osTicket\include\ost-config.php"
