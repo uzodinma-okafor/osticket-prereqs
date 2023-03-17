@@ -142,3 +142,23 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
   
 </p>
 <br /><hr>
+
+
+<p>
+<h2>Step 8: Enable PHP in IIS </h2>
+<img src="https://i.imgur.com/TpTuKGJ.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/mjpomq4.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/2dQ5Y8B.png" height="50%" width="33%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+- Go to Search next to Start>> Type "IIS" >> When IIS comes up in search, scroll below its heading and select "Run as administrator"
+ 
+ - In IIS, click "PHP Manager" >> Under PHP Setup, click "Register New PHP Session"
+ - In next pop-up window, click "..." to find to the "php-cgi.exe" executable file required. It's in the C:\PHP folder created earlier. (Make sure to select "PHP executable" before clicking "Open"!)
+ - Click "OK"  
+ - Choose "Typical" Setup type, then click "Next" 
+ - CLick "Install", then click "Finish"
+ - Choose "Standard Configuration", then click "Next" >> Leave "Install As Windows Service" choice AS IS and click "Next"
+ - Make new password like "Password1" for root MySQL Server account, then click "Next"
+ - Click "Execute" >> Click "Finish"
+  
+</p>
+<br /><hr>
