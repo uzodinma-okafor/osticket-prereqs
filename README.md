@@ -52,7 +52,8 @@ As seen above(left pic), VM-OST-3 is all set up. I copied VM-OST-3's public IP a
 </p>
 <p>
 <h3>Step 1: Enable IIS in Windows with CGI</h3>
-  - Click into the search bar next to Start >> Type in "Control" and select Control Panel.
+
+- Click into the search bar next to Start >> Type in "Control" and select Control Panel.
   - Choose "Programs" >> Click "Turn Windows Features on or Off"
   - Scroll down to activate "Internet Information Services (IIS)" by checking its box on the left
   - Expand IIS to reach "World Wide Web Services" >> Expand that to reach "Application Development Features" >> Expand that, scroll down and activate "CGI" by clicking the box on its left
