@@ -160,13 +160,13 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
 
 <p>
 <h2>Step 10: Install osTicket v1.15.8 </h2>
-<img src="https://i.imgur.com/M58yw2o.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/QFUOmG8.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/beXK3tM.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/CdHdmcg.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
 - Download osTicket v1.15.8 from the Installation Files Folder
 
   - Open the zip folder >> Extract and copy “upload” folder to c:\inetpub\wwwroot
-  - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+  - Within c:\inetpub\wwwroot, Rename “upload” folder to “osTicket”
   - Reload IIS by going to its home page and click "Restart" on the top right side
   
 </p>
@@ -195,11 +195,9 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
 <p>
 - Rename from "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" to "C:\inetpub\wwwroot\osTicket\include\ost-config.php"
  
-- Go back to IIS home page
- - On left side bar click: sites -> Default -> osTicket
- - Double-click PHP Manager >> Click “Enable or disable an extension”
- - Enable these extensions: php_imap.dll, php_intl.dll, and php_opcache.dll
- - Refresh the OsTicket site and notice the changes due to the enabled extensions
+- Disable inheritance -> Remove All
+New Permissions -> Everyone -> All
+
 </p>
 <br /><hr>
 
