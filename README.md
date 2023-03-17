@@ -38,14 +38,7 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
 <br />
 
 <p>
-<img src="https://i.imgur.com/X2JizIf.png" height="50%" width="33%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/IFKF7mk.png" height="50%" width="33%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/vAheUwX.png" height="50%" width="33%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-As seen above(left pic), VM-OST-3 is all set up. I copied VM-OST-3's public IP address (172.174.137.146). I'm connnecting and logging into it via Remote Desktop Connection to continue the steps of installation. To follow along with this part of the  tutorial, connect to your own virtual machine (VM) by following the steps in this previous tutorial, <a href="https://github.com/uzodinma-okafor/vm-connection">Connecting to & Utilization of Virtual Machines via Microsoft Remote Desktop Connection</a>. After logging into VM-OST-3 (middle pic), I went on Microsoft Edge to log into Google Drive to open a folder with the necessary prerequisite installation files(right pic).
-</p>
-<br /><hr>
-<p>
-<h2>Enable IIS in Windows with CGI</h2>
+<h2>Step 1: Enable IIS in Windows with CGI</h2>
 <img src="https://i.imgur.com/S8lrjzX.png" height="50%" width="33%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/kzRHI9k.png" height="50%" width="33%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/sw6QGNa.png" height="50%" width="33%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -60,12 +53,24 @@ As seen above(left pic), VM-OST-3 is all set up. I copied VM-OST-3's public IP a
 <br /><hr>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h2>Step 2: Get access to files for installation<h2>
+<img src="https://i.imgur.com/vAheUwX.png" height="50%" width="33%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- Go to Microsoft Edge >> skip any personalization or marketing ads and open a new tab>> use this <a href="https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">link</a> to access prerequisite installation files
 </p>
-<br />
+<br /><hr>
+
+<p>
+<h2>Step 3: Create C:\PHP Folder
+<img src="https://i.imgur.com/XgkgOBC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+- Open Windows Exlorer in the taskbar
+
+  - Click on "This PC" on left sidebar >> Go to and the Windows (C:\) drive >> Right click, select "New", then select "New Folder" >> Rename the new folder "PHP"
+</p>
+<br /><hr>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
