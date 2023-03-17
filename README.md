@@ -219,11 +219,16 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
 <br /><hr>
 
 <p>
-<h2>Step 13: Rename & Assign permissions for ost-config.php </h2>
-<img src="https://i.imgur.com/MF0Jaf4.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/2ZVuPlA.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
+<h2>Step 14: Install HeidiSQL </h2>
+<img src="https://i.imgur.com/ODtuVGu.png" height="50%" width="33%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/VsBBgVk.png" height="50%" width="33%" alt="Disk Sanitization Steps"/><img src="https://i.imgur.com/Za7GvcH.png" height="50%" width="33%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-- Rename from "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" to "C:\inetpub\wwwroot\osTicket\include\ost-config.php"
+- Download MS Word document from the Google Drive Installation Files page >> click on link in the MS Word doc >> Download the ".exe" file for HeidiSQL
+- Click "Open File" in Downloads >> select "I accept..." and click Next >>Click Next 3x times, then click Install >> Click Finish
+- Close any pop-up window that asks to make updates to HeidiSQL
+- HeidiSQL will launch and open up its session manager>> Click on down arrow on "New" button and select "Session in root folder"
+- You'll be prompted to put password for your MySQL root account, which set up earlier to be "Password1" >> Click Open
+- In new window, right click main branch in left sidebar >> select Creat New >> select Database >> name new database "osTicket", and click OK
  
 - Right click the "ost-config.php" file and select "Properties"
  - Click Security Tab >>
