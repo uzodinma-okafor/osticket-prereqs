@@ -50,10 +50,10 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
   - Expand IIS to reach "World Wide Web Services" >> Expand that to reach "Application Development Features" >> Expand that, scroll down and activate "CGI" by clicking the box on its left
   - Click OK
 </p>
-<br /><hr>
+<br/><hr>
 
 <p>
-<h2>Step 2: Get access to files for installation<h2>
+<h2>Step 2: Get access to files for installation</h2>
 <img src="https://i.imgur.com/vAheUwX.png" height="50%" width="33%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
