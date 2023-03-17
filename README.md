@@ -113,14 +113,27 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
 <br /><hr>
 
 <p>
-<h2>Step 7: Intstall Rewrite Module </h2>
-<img src="https://i.imgur.com/M4dgnEX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h2>Step 7: Intstall Microsoft Visual C++ </h2>
+<img src="https://i.imgur.com/HlS0Bm0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-- Download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+- Download VC_redist.x86.exe to install Microsoft Visual C++
 
   - After downloading, click "Open File" to start installation of the file
-  - Check the "I Agree" box and click "Next" 
-  - After installation completes, click "Finish"
+  - Check the "I Agree" box and click "Install" 
+  - After installation completes, click "Close"
+</p>
+<br /><hr>
+
+<p>
+<h2>Step 7: Intstall Microsoft Visual C++ </h2>
+<img src="https://i.imgur.com/HlS0Bm0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+- Download VC_redist.x86.exe to install Microsoft Visual C++
+
+  - After downloading, click "Open File" to start installation of the file
+  - Check the "I Agree" box and click "Install" 
+  - After installation completes, click "Close"
 </p>
 <br /><hr>
