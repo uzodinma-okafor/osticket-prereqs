@@ -157,3 +157,33 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
  - Restart IIS by going back to its home page and click "Restart" on the top right side
 </p>
 <br /><hr>
+
+<p>
+<h2>Step 10: Install osTicket v1.15.8 </h2>
+<img src="https://i.imgur.com/M58yw2o.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/QFUOmG8.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+- Download osTicket v1.15.8 from the Installation Files Folder
+
+  - Open the zip folder >> Extract and copy “upload” folder to c:\inetpub\wwwroot
+  - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+ - Restart IIS by going back to its home page and click "Restart" on the top right side
+  
+</p>
+<br /><hr>
+
+<p>
+<h2>Step 10: Install osTicket v1.15.8 </h2>
+<img src="https://i.imgur.com/M58yw2o.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/QFUOmG8.png" height="50%" width="33%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+- Download osTicket v1.15.8 from the Installation Files Folder
+
+  - Open the zip folder >> Extract and copy “upload” folder to c:\inetpub\wwwroot
+  - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+
+  
+</p>
+<br /><hr>
+
+
