@@ -131,13 +131,14 @@ To follow along in this tutorial, first create your own virtual machine (VM) in 
 </p>
 <p>
 - Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
-  - After downloading, click "Open File" to start installation of the file
-  - Click Next >> Check the "I Agree" box and click "Next" 
-  - Choose "Typical" Setup type, then click "Next" 
-  - CLick "Install", then click "Finish"
-  - Choose "Standard Configuration", then click "Next" >> Leave "Install As Windows Service" choice AS IS and click "Next"
-  - Make new password like "Password1" for root MySQL Server account, then click "Next"
-  - Click "Execute" >> Click "Finish"
+ 
+ - After downloading, click "Open File" to start installation of the file
+ - Click Next >> Check the "I Agree" box and click "Next" 
+ - Choose "Typical" Setup type, then click "Next" 
+ - CLick "Install", then click "Finish"
+ - Choose "Standard Configuration", then click "Next" >> Leave "Install As Windows Service" choice AS IS and click "Next"
+ - Make new password like "Password1" for root MySQL Server account, then click "Next"
+ - Click "Execute" >> Click "Finish"
   
 </p>
 <br /><hr>
